@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,12 +8,12 @@
 
 .container {
     width: 100%;
-    margin-left: 0%;
+    margin: 0%;
     text-align: center;
     background-color: cornflowerblue;
 }
 
-[class*=col-] {
+[class*=col-sm] {
     padding: 14px;
 }
 
@@ -25,7 +24,7 @@
         flex-wrap: wrap;
     }
 
-    [class*="col-"] {
+    [class*="col-sm"] {
         width: 100%;
     }
    
